@@ -1,0 +1,11 @@
+p{
+    color: #7A7A7A;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+.row{
+    display: flex;  
+    justify-content: center;
+    align-items:center;
+}

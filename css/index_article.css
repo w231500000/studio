@@ -1,0 +1,153 @@
+body{
+    position: relative;
+}
+
+h1{
+    text-align: justify;
+}
+
+h2,h3{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+p{
+    color: #7A7A7A;
+    text-align: justify;
+}
+
+.col{
+    margin: 6rem;
+}
+
+.row{
+    margin: 4rem;
+}
+
+.card-title{
+    height: 3.5rem;
+    font-size: small;
+}
+
+.card img{
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.img-w-48{
+    width: 48%;
+}
+
+.img-w-32{
+    width: 32%;
+}
+
+a{
+    color:#354a47;
+}
+
+a:hover{
+    color:#354a47;
+}
+
+.border-custom{  
+    border-left: 0.2rem solid rgb(233, 233, 233);
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+form .btn{
+    background-color: #476142;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+form .btn:hover{
+    background-color: #155724;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.alert {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+.btn-delete{
+    background-color: #fff;
+    color: #7A7A7A;
+
+}
+
+.share-buttons .btn{
+    padding: 0.1rem;
+}
+
+i{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+.fa-facebook-f{
+    padding: 0.2rem;
+    color: #fff;
+    background-color: #0866FF;
+    border-radius: 50%;
+}
+
+.fa-x-twitter{
+    padding: 0.2rem;
+    color: #fff;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.fa-pinterest-p{
+    padding: 0.2rem;
+    color: #fff;
+    background-color: #BD081C;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    padding: 0.2rem;
+    color: #fff;
+    background-color: #E1306C;
+    border-radius: 50%;
+}
+
+
+@media (max-width:1000px) {
+    .col{
+        margin: 0.1rem;
+    }
+
+    .row{
+        margin: 0.1rem;
+    }
+
+    .p-4{
+        padding: 3rem;
+    }
+}
