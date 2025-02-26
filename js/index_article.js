@@ -371,7 +371,7 @@ function displayComment(name, message, timestamp, index) {
         <strong>${name}</strong>
         <p>${message}</p>
         <small class="text-muted">${timeString}</small>
-        <button class="btn btn-danger btn-sm float-end" onclick="deleteComment(${index})">刪除</button>
+        <button class="btn btn-delete btn-sm float-end" onclick="deleteComment(${index})">刪除</button>
     `;
 
     // 將新評論添加到評論列表中
